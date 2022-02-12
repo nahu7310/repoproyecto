@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+*{margin: 0%;}
+body{
+    font-family: Oswald;
+    background-color: black;
+}
+header.menuprincipal{
+    background-color: rgb(252, 85, 24);
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header.menuprincipal ul.menu1{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+}
+header.menuprincipal ul.menu1 li{
+    margin: 5px;
+    list-style: none;
+}
+a.I1{
+    text-decoration: none;
+    color: black;
+}
+a.I1:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+a.P1{
+    text-decoration: none;
+    color: black;
+}
+a.P1:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+a.SN1{
+    text-decoration: none;
+    color: black;
+}    
+a.SN1:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+section.inicio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 700px 250px 250px;
+    border: 2px black solid
+}
+section div.hero{
+    background-image: url("https://images.unsplash.com/photo-1579758629938-03607ccdbaba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 700px;
+    grid-column: 1/3; 
+}
+div.Imagen1{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")
+}
+div.Presentación1{
+    color: white;
+    font-size: 25px;
+    display: grid;
+    justify-content: stretch;
+    align-items: stretch;
+    text-align: right;
+    padding-top: 30px;
+    font-weight: bold;
+
+}
+p.Presentación1{
+    font-weight: lighter;
+    padding: 3px;
+    font-size: 20px;
+    text-align: right;
+}
+div.Imagen2{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1573855619003-97b4799dcd8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+}
+div.Presentación2{
+    color: white;
+    font-size: 25px;
+    display: grid;
+    justify-content: stretch;
+    align-items: stretch;
+    text-align: left;
+    padding-top: 30px;
+    font-weight: bold;
+}
+p.Presentación2{
+    font-weight: lighter;
+    padding: 3px;
+    font-size: 20px;
+    text-align: left;
+}
+.footerprincipal{
+    display: grid;
+    grid-template-columns: 220px 220px 108px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.menuproductos{
+    background-color: rgb(252, 85, 24);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.menuproductos ul.listaproductos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menuproductos ul.listaproductos li.menuproductos{
+    padding-right: 10px;
+}
+a.I2{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+a.I2:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+a.P2{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+a.P2:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+a.SN2{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+a.SN2:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+section.productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 75px 250px 250px 180px;
+}
+.nuevacolección{
+    background-image: url("https://images.unsplash.com/photo-1635510239288-e03536e80ffd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    grid-column: 1/5;
+    text-align: center;
+    padding-top: 10px;
+    grid-gap: 10px white;
+
+}
+.airjordan{
+    background-image: url("https://sneakers-magazine.com/wp-content/uploads/2019/01/nike-air-jordan-4-retro-black-laser-ci1184-001-mood-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    grid-column: 1/3;
+    grid-row: 2/4;
+    text-align: center;
+    padding-top: 250px;
+}
+.airjordan:hover{
+    transform: scale(1.2);
+    transition: all 2s;
+}
+.airjordan1{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+    border-radius: 10px;
+}
+.airjordan1:hover{
+    background-color: black;
+    color: white;
+}
+.airforce{
+    background-image: url("https://res.cloudinary.com/shelflife-online/image/upload/c_fill,f_auto,q_auto:best,w_1392/v1575961299/uploads/assets/134-Blog-tear-Nike-Air-Force-1-Valentines-Day-2-498.png") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    grid-column: 3/5;
+    padding-top: 100px;
+    text-align: center;
+}
+.airforce:hover{
+    transform: scale(1.2);
+    transition: all 2s;
+}
+.airforce1{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+    border-radius: 10px;}
+
+.airforce1:hover{
+    background-color: black;
+    color: white;
+}
+.pumarsx{
+    background-image:url("https://www.urbanclubmagazine.com/2018/11/05/nuevas-puma-rs-x-reinvention/puma-rs-x-reinvention-2/") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    grid-column: 3/5 ;
+    text-align: center;
+    padding-top: 100px;
+}
+.pumarsx:hover{
+    transform: scale(1.2);
+    transition: all 2s;
+}
+.pumarsx1{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+    border-radius: 10px;
+}
+.pumarsx1:hover{
+    background-color: black;
+    color: white;
+}
+.adidas{
+    background-image: url("https://www.unionrayo.es/wp-content/uploads/2020/09/adidas-logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid white ;
+}
+.adidas:hover{
+    transform: scale(1.2);
+    transition: all 2s;
+}
+.nike{
+    background-image: url("https://www.mexmads.com/wp-content/uploads/2020/05/NIKE.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border: solid white ;
+}
+.nike:hover{
+    transform: scale(1.2);
+    transition: all 2s;
+}
+.puma{
+    background-image: url("https://assets.turbologo.com/blog/es/2019/11/19132946/puma-logo-cover-958x575.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border: solid white ;
+}
+.puma:hover{
+    transform: scale(1.2);
+    transition: all 2s;
+}
+.newbalance{
+    background-image: url("https://1000marcas.net/wp-content/uploads/2020/01/New-Balance-simbolo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border: solid white ;
+}
+.newbalance:hover{
+    transform: scale(1.2);
+    transition: all 2s;
+}
+
+.menusobrenosotros{
+    background-color: rgb(252, 85, 24);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header.menusobrenosotros ul.menu3{
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+a.I3{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}    
+a.I3:hover{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+a.P3{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+a.P3:hover{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+a.SN3{ 
+    text-decoration: none;
+    color: black;
+    padding:5px;
+}    
+a.SN3:hover{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+form.formulario{
+    font-size: 18px ;
+    color: white;
+}
+legend.contactanos{
+    color: white;
+}
+section.contactanos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+div.comentarios{
+    display: grid;
+    grid-column: 1/2;
+}
+div.sucursal{
+    text-align: center;
+    color: white;
+    display: grid;
+    grid-column: 2/3;
+}
+iframe{padding-left: 50px;
+border: 2px solid orangered;
+border-radius: 5px;}
+@media only screen and (max-width:320px){
+    .footerprincipal{
+        display: grid;
+        grid-template-columns: 80px 80px 110px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;}
+     div.Presentación1{
+            color: white;
+            font-size: 17px;
+            display: grid;
+            justify-content: center;
+            align-items:center ;
+            text-align: right;
+            padding-top: 0px;
+            padding-bottom: 0%;
+            padding-right: 5px;
+            font-weight: bold; }
+     p.Presentación1{
+                font-weight: lighter;
+                padding: 3px;
+                padding-top: 0%;
+                padding-bottom: 25px;
+                font-size: 15px;
+                text-align: right; }           
+    div.Presentación2{
+                    color: white;
+                    font-size: 17px;
+                    display: grid;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: left;
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                    padding-left: 5px;
+                    font-weight: bold;
+                }
+     p.Presentación2{
+                    font-weight: lighter;
+                    padding: 3px;
+                    padding-top: 0%;
+                    padding-bottom: 25px;
+                    font-size: 15px;
+                    text-align: left;
+                }
+    .menuproductos{
+                    background-color: rgb(252, 85, 24);
+                    padding-left: 5px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    padding-right: 10px; 
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;}
+    section.contactanos{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                a.I3{
+                    font-size: 18px;
+                    text-decoration: none;
+                    color: black;
+                    padding-left: 18px;
+                }
+                a.P3{
+                    font-size: 18px;
+                    text-decoration: none;
+                    color: black;
+                    padding-left: 10px;
+                }
+                a.SN3{ 
+                    font-size: 18px;
+                    text-decoration: none;
+                    color: black;
+                    padding-left: 12px;
+                }
+                div.sucursal{
+                    padding-top: 18px;
+                }       
+}
+@media only screen and (max-width: 600px){
+    .footerprincipal{
+        display: grid;
+        grid-template-columns: 80px 80px 110px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;}
+     div.Presentación1{
+            color: white;
+            font-size: 17px;
+            display: grid;
+            justify-content: center;
+            align-items:center ;
+            text-align: right;
+            padding-top: 0px;
+            padding-bottom: 0%;
+            padding-right: 5px;
+            font-weight: bold; }
+     p.Presentación1{
+                font-weight: lighter;
+                padding: 3px;
+                padding-top: 0%;
+                padding-bottom: 25px;
+                font-size: 15px;
+                text-align: right; }           
+    div.Presentación2{
+                    color: white;
+                    font-size: 17px;
+                    display: grid;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: left;
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                    padding-left: 5px;
+                    font-weight: bold;
+                }
+     p.Presentación2{
+                    font-weight: lighter;
+                    padding: 3px;
+                    padding-top: 0%;
+                    padding-bottom: 25px;
+                    font-size: 15px;
+                    text-align: left;
+                }
+    .menuproductos{
+                    background-color: rgb(252, 85, 24);
+                    padding-left: 5px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    padding-right: 10px; 
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;}
+    section.contactanos{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: stretch;
+                    align-items: stretch;
+                }
+                a.I3{
+                    font-size: 18px;
+                    text-decoration: none;
+                    color: black;
+                    padding-left: 18px;
+                }
+                a.P3{
+                    font-size: 18px;
+                    text-decoration: none;
+                    color: black;
+                    padding-left: 10px;
+                }
+                a.SN3{ 
+                    font-size: 18px;
+                    text-decoration: none;
+                    color: black;
+                    padding-left: 12px;
+                }
+                div.sucursal{
+                    padding-top: 18px;
+                }     
+}

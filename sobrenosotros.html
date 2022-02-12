@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Sobre Nosotros</title>
+    <style>
+        iframe{
+            width: 500px;
+            padding-right: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header class="menusobrenosotros"> <img src="https://icongr.am/fontawesome/grav.svg?size=70&color=000000" alt="">
+        <ul class="menu3"> 
+            <li class="I3"> <a class="I3" href="index.html"> Inicio</a></li>
+            <li class="I3"> <a class="P3" href="productos.html">Productos</a></li>
+            <li class="I3"> <a class="SN3" href="sobrenosotros.html"> Sobre nosotros</a></li>
+        </ul>
+    </header>
+
+    <section class="contactanos">
+        <div class="comentarios">
+            <fieldset>
+                <legend class="contactanos"> Queremos conocer tu opinión</legend>
+                <form class="formulario" action="enviar" method="post" enctype="text/plain">
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" name="Nombre" placeholder="Nombre Completo" required>
+                    <br>
+                    <label for="Apellido">Apellido</label>
+                    <input type="text" name="Apellido" placeholder="Apellido/s" required>
+                    <br>
+                    <label for="sexo">Hombre</label>
+                    <input type="radio" name="sexo">
+                    <label for="Sexo">Mujer</label>
+                    <input type="radio" name="sexo">
+                    <label for="sexo">Sin especificar</label>
+                    <input type="radio" name="sexo">
+                    <br>
+                    <label for="tel">Telefono</label>
+                    <input type="number" name="tel" placeholder="Cel/Casa" required>
+                    <br>
+                    <label for="Email">Email</label>
+                    <input type="email" name="email"placeholder="algun email" required>
+                    <br>
+                    <label for="comentarios">Comentarios:</label>
+                    <br>
+                    <textarea name="Comentarios" id="" cols="30" rows="10"placeholder="comentario, recomendación o pregunta" required></textarea>
+                    <br>
+                    <input type="submit" value="Enviar Opinión">
+                    <input type="reset" value="Borrar Todo">
+                </form>
+            </fieldset>
+        </div>
+        <div class="sucursal">Sucursal en Lanus
+            <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.833851180798!2d-58.3879832!3d-34.7093704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd3b4fe7b2fb%3A0xa4906a23dbd5278b!2sSport%20Town!5e0!3m2!1ses!2sar!4v1642830377212!5m2!1ses!2sar" width="600" height="450" style="border: 70px;" allowfullscreen="" loading="lazy"></iframe></div>
+    </section>
+    <footer>
+        <ul class="footerprincipal">
+        <li class="facebook"> <a href="http://facebook.com" target="_blank" rel="noopener noreferrer"> <img src="https://icongr.am/fontawesome/facebook-square.svg?size=70&color=cf5105" alt=""></a></li>
+        <li class="instagram"> <a href="http://instagram.com" target="_blank" rel="noopener noreferrer"> <img src="https://icongr.am/fontawesome/instagram.svg?size=70&color=cf5105" alt=""></a></li>
+        <li class="linkedin"> <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer"> <img src="https://icongr.am/fontawesome/linkedin-square.svg?size=70&color=cf5105" alt=""></a></li>
+        </ul>
+    </footer>
+</body>
+</html>
