@@ -193,10 +193,11 @@ section.productos{
     grid-row: 2/4;
     text-align: center;
     padding-top: 250px;
+    transition: transform 2s;
 }
 .airjordan:hover{
     transform: scale(1.2);
-    transition: all 2s;
+    
 }
 .airjordan1{
     background-color: white;
@@ -218,10 +219,10 @@ section.productos{
     grid-column: 3/5;
     padding-top: 100px;
     text-align: center;
+    transition: transform 2s;
 }
 .airforce:hover{
     transform: scale(1.2);
-    transition: all 2s;
 }
 .airforce1{
     background-color: white;
@@ -243,10 +244,10 @@ section.productos{
     grid-column: 3/5 ;
     text-align: center;
     padding-top: 100px;
+    transition: transform 2s;
 }
 .pumarsx:hover{
     transform: scale(1.2);
-    transition: all 2s;
 }
 .pumarsx1{
     background-color: white;
@@ -265,10 +266,10 @@ section.productos{
     background-repeat: no-repeat;
     background-size: cover;
     border: solid white ;
+    transition: transform 2s;
 }
 .adidas:hover{
     transform: scale(1.2);
-    transition: all 2s;
 }
 .nike{
     background-image: url("https://www.mexmads.com/wp-content/uploads/2020/05/NIKE.jpg");
@@ -277,10 +278,11 @@ section.productos{
     background-size: cover;
     color: white;
     border: solid white ;
+    transition: transform 2s;
 }
 .nike:hover{
     transform: scale(1.2);
-    transition: all 2s;
+    
 }
 .puma{
     background-image: url("https://assets.turbologo.com/blog/es/2019/11/19132946/puma-logo-cover-958x575.png");
@@ -289,10 +291,11 @@ section.productos{
     background-size: cover;
     color: white;
     border: solid white ;
+    transition: transform 2s;
 }
 .puma:hover{
     transform: scale(1.2);
-    transition: all 2s;
+    
 }
 .newbalance{
     background-image: url("https://1000marcas.net/wp-content/uploads/2020/01/New-Balance-simbolo.jpg");
@@ -301,10 +304,11 @@ section.productos{
     background-size: cover;
     color: white;
     border: solid white ;
+    transition: transform 2s;
 }
 .newbalance:hover{
     transform: scale(1.2);
-    transition: all 2s;
+    
 }
 
 .menusobrenosotros{
