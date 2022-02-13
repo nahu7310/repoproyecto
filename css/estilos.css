@@ -78,7 +78,7 @@ div.Presentación1{
     text-align: right;
     padding-top: 30px;
     font-weight: bold;
-
+    padding-right: 10px;
 }
 p.Presentación1{
     font-weight: lighter;
@@ -101,6 +101,7 @@ div.Presentación2{
     text-align: left;
     padding-top: 30px;
     font-weight: bold;
+    padding-left: 10px;
 }
 p.Presentación2{
     font-weight: lighter;
