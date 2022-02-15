@@ -5,36 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/estilos.css">
     <title>Sobre Nosotros</title>
-    <style>
-        .sucursal .iframe{
-            width: 500px;
-            padding-left: 0px;
-            justify-content:center ;
-        }
-        @media only screen and (max-width:320px){
-            .iframe{
-                display: flex;
-                
-            }
-        }
-    </style>
+
 </head>
 <body>
-    <header class="menusobrenosotros"> <img src="https://icongr.am/fontawesome/grav.svg?size=70&color=000000" alt="">
-        <ul class="menu3"> 
-            <li class="I3"> <a class="I3" href="index.html"> Inicio</a></li>
-            <li class="I3"> <a class="P3" href="productos.html">Productos</a></li>
-            <li class="I3"> <a class="SN3" href="sobrenosotros.html"> Sobre nosotros</a></li>
-        </ul>
-    </header>
-
-    <section class="contactanos">
-        <div class="comentarios">
-            <fieldset>
+    <!-- <header class="menusobrenosotros"> <img src="https://icongr.am/fontawesome/grav.svg?size=70&color=000000" alt=""> -->
+        <nav class="navbar navbar-expand-md navbar-dark menusobrenosotros">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#"><img src="https://icongr.am/fontawesome/grav.svg?size=70&color=000000" alt=""></a>
+          
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item I3">
+                  <a class="nav-link I3" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item I3">
+                  <a class="nav-link P3" href="productos.html">Productos</a>
+                </li>
+                <li class="nav-item I3">
+                  <a class="nav-link SN3" href="sobrenosotros.html">Sobre Nosotros</a>
+                </li>
+              </ul>
+            </div>
+          </nav> 
+        <!-- <ul class="menu3">  -->
+            <!-- <li class="I3"> <a class="I3" href="index.html"> Inicio</a></li> -->
+            <!-- <li class="I3"> <a class="P3" href="productos.html">Productos</a></li> -->
+            <!-- <li class="I3"> <a class="SN3" href="sobrenosotros.html"> Sobre nosotros</a></li> -->
+        <!-- </ul> -->
+    <!-- </header> -->
+<!-- practica de boostraps inicio -->
+        <section class="sobrenosotros row">
+            <article class="color3 col-xs-12 col-sm-6 col-lg-6">
+                <fieldset>
                 <legend class="contactanos"> Queremos conocer tu opinión</legend>
-                <form class="formulario" action="enviar" method="post" enctype="text/plain">
+                <form class="formulario col-xs-6 col-sm-12 col-lg-12" action="enviar" method="post" enctype="text/plain">
                     <label for="Nombre">Nombre</label>
                     <input type="text" name="Nombre" placeholder="Nombre Completo" required>
                     <br>
@@ -62,11 +75,16 @@
                     <input type="reset" value="Borrar Todo">
                 </form>
             </fieldset>
-        </div>
-        <div class="sucursal">Sucursal en Lanus
-            <br>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.833851180798!2d-58.3879832!3d-34.7093704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd3b4fe7b2fb%3A0xa4906a23dbd5278b!2sSport%20Town!5e0!3m2!1ses!2sar!4v1642830377212!5m2!1ses!2sar" width="600" height="450" style="border: 70px;" allowfullscreen="" loading="lazy"></iframe></div>
-    </section>
+            </article>
+            <aside class="color4 col-xs-12 col-sm-6 col-lg-6">
+                <br>
+            
+                
+                <h3>Sucursal de Lanus</h3>
+                <iframe class="color4 col-xs-12 col-sm-12 col-lg-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.833851180798!2d-58.3879832!3d-34.7093704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd3b4fe7b2fb%3A0xa4906a23dbd5278b!2sSport%20Town!5e0!3m2!1ses!2sar!4v1642830377212!5m2!1ses!2sar" width="500" height="500" style="border: 70px;" allowfullscreen="" loading="lazy"></iframe>
+            </aside>
+        </section>
+<!-- practica de boostraps final -->
     <footer>
         <ul class="footerprincipal">
         <li class="facebook"> <a href="http://facebook.com" target="_blank" rel="noopener noreferrer"> <img src="https://icongr.am/fontawesome/facebook-square.svg?size=70&color=cf5105" alt=""></a></li>

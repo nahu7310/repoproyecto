@@ -321,12 +321,12 @@ section.productos{
     flex-direction: row;
     justify-content: space-between;
 }
-header.menusobrenosotros ul.menu3{
+.menusobrenosotros #collapsibleNavbar{
     list-style: none;
     font-size: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    /* display: flex; */
+    /* flex-direction: row; */
+    justify-content: right;
     align-items: center;
     margin: 5px;
 }
@@ -361,11 +361,14 @@ a.SN3:hover{
     border-radius: 20px;
 }
 form.formulario{
+    padding-left: 15px;
+    padding-top: 15px;
     font-size: 18px ;
     color: white;
 }
 legend.contactanos{
     color: white;
+    padding-left: 15px;
 }
 section.contactanos{
     display: grid;
@@ -549,4 +552,25 @@ border-radius: 5px;}
                 div.sucursal{
                     padding-top: 18px;
                 }     
+}
+.aside{
+    padding-right: 50px;
+}
+h3{
+    text-align: center;
+    color: white;
+}
+nav{
+    background-color: rgb(252, 85, 24);
+}
+.navbar-nav{
+    display: flex;   
+}
+.nav-item{
+    flex-direction: row;
+}
+.nav-link{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
 }
