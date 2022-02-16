@@ -193,8 +193,9 @@ figure {
 }
 
 img {
-  vertical-align: middle;
-  border-style: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 svg {
